@@ -1,1 +1,22 @@
 // Mixins in here
+.btn(@color, @margin, @font-size) {
+    background-color: royalblue;
+    border: none;
+    color: @color;
+    /* T B */
+    padding: 20px 40px;
+    padding-right:60px;
+    padding-left: 60px;
+    text-align: center;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    display: inline-block;
+    font-size: @font-size;
+    margin: @margin;
+    cursor: pointer;
+  }
+
+  .blue-btn {
+    .btn (#00FF00, 4px 2px, 16px)
+}
+
+  
