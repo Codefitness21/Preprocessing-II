@@ -9,10 +9,11 @@ header nav{
     margin-left: 49%;
 }
 
-@mobile: ~"( max-width: 500px )";
+
 @media @mobile {
-    .header nav {
-        flex-direction: column;
+    header nav {
+        margin-left: 15%;
+        width: 70%;
     }
 } 
 
@@ -25,6 +26,14 @@ header nav a {
     margin-top: 30px;
     margin-bottom: 20px;
     width: 100%;
+
+}
+
+@media @mobile {
+    .img-content-1 {
+        margin-left: 2%;
+        justify-content: center;
+    }
 }
 
 h1 {
@@ -36,5 +45,11 @@ h1 {
     margin-bottom: -30px;
 }
 
-
+@media @mobile {
+    header h1 {
+        margin-bottom: 20px;
+        margin-left: 35%;
+        width: 70%;
+    }
+} 
 
