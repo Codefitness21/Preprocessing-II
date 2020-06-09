@@ -4,7 +4,7 @@
   "description": "Fun Bus is a travel agency looking for some help on their website.  They want a new navigation, new header, and new buttons on the home page. They also want a mobile version of their site styled.  Use your preprocessing knowledge to accomplish their tasks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/Codefitness21/Preprocessing-II/issues"
   },
-  "homepage": "https://github.com/Codefitness21/Preprocessing-II#readme",
-  "dependencies": {
-    "gh-pages": "^3.0.0"
-  }
+  "homepage": "https://Codefitness21.github.io/Preprocessing-II"
 }
