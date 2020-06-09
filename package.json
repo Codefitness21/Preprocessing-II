@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Codefitness21/Preprocessing-II/issues"
   },
-  "homepage": "https://github.com/Codefitness21/Preprocessing-II#readme"
+  "homepage": "https://github.com/Codefitness21/Preprocessing-II#readme",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
 }
