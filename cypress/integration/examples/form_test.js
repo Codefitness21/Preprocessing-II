@@ -6,7 +6,7 @@ it ('visits the Fun Bus app', function() {
 });
 
 it("second test", function () {
-    cy.get(`[data-cy="name"]`).type("Fun Bus").should("have.value", "Emi")	
+    cy.get(`[data-cy="name"]`).type("Fun Bus")	
 });
 
 it("Second it Test", function () {});
